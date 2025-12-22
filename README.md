@@ -7,8 +7,11 @@
 ## 🎯 Core Task
 
 Given a set of multi-view images, achieve:
+
 -Accurate segmentation of the first image using a point prompt
+
 -Consistent segmentation results across all viewpoints
+
 -High-quality segmentation masks generated simultaneously for all views
 
 ## 🏗️ Architecture
@@ -23,10 +26,15 @@ First image (point prompt) → SAM segmentation → Select highest confidence ma
 ```
 
 **Characteristics:**
+
     ✅ Advantages: Stable segmentation results, accurate point tracking
+    
     ❌ Disadvantages:
+    
         High GPU memory usage (~20GB for large masks)
+        
         Slow inference speed
+        
         Potential mask discontinuity issues
 
 ### Method 2: VGGT + SAM
@@ -37,5 +45,7 @@ First image (point prompt) → VGGT track to other views → Separate SAM segmen
 ```
 
 **Characteristics:**
+
     ✅ Advantages:  Low GPU memory usage, fast inference
+    
     ❌ Disadvantages:  Segmentation consistency may be compromised
