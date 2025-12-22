@@ -18,7 +18,7 @@ Given a set of multi-view images, achieve:
 
 This project explores two different method combinations:
 
-### Method 1: SAM + VGGT
+### Method 1: SAM + VGGT (See SAM_VGGT.py)
 
 **Pipeline:**
 ```text
@@ -37,7 +37,7 @@ First image (point prompt) → SAM segmentation → Select highest confidence ma
         
         Potential mask discontinuity issues
 
-### Method 2: VGGT + SAM
+### Method 2: VGGT + SAM (See VGGT_SAM.py)
 
 **Pipeline:**
 ```text
