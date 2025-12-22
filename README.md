@@ -1,7 +1,5 @@
 # Multi-View SAM: Multi-View Image Segmentation by Combining SAM and VGGT
 
-MATLAB implementation of **Superposed IM-OFDM (S-IM-OFDM)** - an enhanced OFDM waveform for Integrated Sensing and Communications (ISAC).
-
 ## 📋 Project Overview
 
 **Multi-View** SAM is a framework for multi-view image segmentation based on pre-trained **SAM (Segment Anything Model)** and **VGGT**. This project enables simultaneous semantic segmentation across multiple viewpoints using a single point prompt from the first image.
