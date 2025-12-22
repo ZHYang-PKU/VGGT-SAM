@@ -2,7 +2,7 @@
 
 ## 📋 Project Overview
 
-**Multi-View** SAM is a framework for multi-view image segmentation based on pre-trained **SAM (Segment Anything Model)** and **VGGT**. This project enables simultaneous semantic segmentation across multiple viewpoints using a single point prompt from the first image.
+**Multi-View** SAM is a framework for multi-view image segmentation based on pre-trained **SAM (Segment Anything Model)** and **VGGT (Visual Geometry Grounded Transformer)**. This project enables simultaneous semantic segmentation across multiple viewpoints using a single point prompt from the first image.
 
 ## 🎯 Core Task
 
