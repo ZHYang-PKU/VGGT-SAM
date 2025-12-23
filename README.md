@@ -27,9 +27,9 @@ First image (point prompt) → SAM segmentation → Select highest confidence ma
 
 **Characteristics:**
 
-    ✅ Advantages: Stable segmentation results, accurate point tracking
+    -✅ Advantages: Stable segmentation results, accurate point tracking
     
-    ❌ Disadvantages:
+    -❌ Disadvantages:
     
         High GPU memory usage (~20GB for large masks)
         
